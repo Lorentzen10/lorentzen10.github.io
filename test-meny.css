@@ -1,17 +1,27 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-image: url(bilder/Gustikken.png);
+    font-family: sans-serif;
+    background-image: url(bilder/gekrp.jpg);
     background-repeat: no-repeat;
-    background-size:  ;
-    background-position: center;
-    top: 400px;
+    /* background-position: center; */
+    background-size: 1750px;
+    /* background-position: ; */
+    top: 300px;
 }
 header {
     display: flex;
     justify-content: space-between;
     /* background-color: aquamarine; */
     /* color: aliceblue; */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px;
 }
 nav{
     display: flex;
