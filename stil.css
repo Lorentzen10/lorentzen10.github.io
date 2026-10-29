@@ -1,0 +1,25 @@
+body { margin: 0;
+    background-color: rgb(255, 176, 65);
+    color: purple;
+}
+
+p{
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+a {
+    color: green;
+
+}
+
+a:hover{
+    font-size: 1.2rem;
+    color: purple;
+    background-color: aquamarine;
+}
+#mellomrom{
+    height: 300px;
+    background-color: brown;
+   
+}

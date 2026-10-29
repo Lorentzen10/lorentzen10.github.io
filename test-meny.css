@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bilder/Gustikken.png);
+    background-repeat: no-repeat;
+    background-size:  ;
+    background-position: center;
+    top: 400px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    /* color: aliceblue; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: center;
+    margin: 10px;
+}
+a{
+    background-color: bisque;
+    padding: 1rem;
+    margin: 4px;
+    border-radius: 7%;
+    text-decoration: none;
+    color: blueviolet;
+}
+div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: burlywood;
+}
+
